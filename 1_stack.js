@@ -19,8 +19,8 @@ class  Stack
         else
         {
             this.last += 1;
-            this.arr[this.last] =item;
-            console.log(`item pushed is ${item}`)
+            this.arr[this.last] = item;
+            console.log(`item pushed : ${item}`)
             return this.last;
         }
     }
@@ -32,7 +32,7 @@ class  Stack
         }
         else
         {
-            console.log(`popped element is ${this.arr[this.last]}`);
+            console.log(`popped element : ${this.arr[this.last]}`);
             this.last-=1;
             return this.last;
         }
